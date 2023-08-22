@@ -6,4 +6,4 @@ metadata:
 spec:
   containers:
   - image: ghcr.io/kyverno/test-verify-image:signed
-    name: test-secret-2
+    name: test-secret-pod-2

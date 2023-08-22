@@ -1,0 +1,16 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  creationTimestamp: null
+  labels:
+    run: test
+  name: test-attestation-1
+  namespace: notary-verify-attestation
+spec:
+  containers:
+  - image: ghcr.io/kyverno/test-verify-image:signed
+    name: test-atestation-1
+    resources: {}
+  dnsPolicy: ClusterFirst
+  restartPolicy: Always
+status: {}

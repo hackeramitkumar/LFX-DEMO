@@ -4,12 +4,12 @@ metadata:
   creationTimestamp: null
   labels:
     run: test
-  name: test-1
+  name: test-attestation-2
   namespace: notary-verify-attestation
 spec:
   containers:
   - image: ghcr.io/kyverno/test-verify-image:signed
-    name: test-1
+    name: test-atestation-2
     resources: {}
   dnsPolicy: ClusterFirst
   restartPolicy: Always
